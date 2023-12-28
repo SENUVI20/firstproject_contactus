@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel = "stylesheet" href = "userStyle.css">
+</head>
+<body>
+    <center><img src = "images/pentagon-logo.png" width ="200px" height ="60px" alt = "logo" class = "logo"></center>
+    <div class = "continer">
+        <div class = "form-box">
+            <form action ="" method = "" name ="Formfill" onsubmit = "return validation()">
+                <h2>Contact Us</h2>
+                <p id = "result"></p>
+                <div class="input-box">
+                    <input type = "text" name = "Username" placeholder = "Full Name">
+                </div>
+                <div class="input-box">
+                    <input type = "email" name = "Email" placeholder = "Email">
+                </div>
+                <div class="input-box">
+                    <input type = "text" name = "Subject" placeholder = "Subject">
+                </div>
+            
+                <div class="input-box">
+                    <input type = "text" name="AdditionalDetail"  placeholder = "Additional Details" ></textarea>
+                </div>
+                <div class = "button">
+                    <input type = "submit" name ="submit" class ="btn" value = "submit">
+                    <a href=""><button type="button" class ="btn" onclick="clear()">Clear</button></a>
+                </div>
+              
+
+            </form>
+        </div>
+       
+    </div>
+    
+    <script src = "contact.js"></script>
+</body>
+</html>
